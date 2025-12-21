@@ -82,18 +82,11 @@ ecommerce_product_analytics/
 ├── memo/ # decision memo
 └── README.md
 ```
-
----
-
 ## Requirements
 `pip install -r requirements.txt`
 
----
-
 ## Status
 **In progress**
-
----
 
 ## License
 MIT License © 2025
