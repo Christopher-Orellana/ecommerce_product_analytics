@@ -4,7 +4,7 @@
 This project builds a **grain-safe analytical layer in PostgreSQL** using transactional data from the  
 **Olist Brazilian E-Commerce** dataset.
 
-The objective is to **prevent silent metric corruption**—especially revenue inflation—caused by
+The objective is to **prevent silent metric corruption** especially revenue inflation caused by
 joining fact tables at incompatible grains (orders, items, payments).  
 Instead of relying on analyst discipline alone, this project **enforces correctness using 
 the database schema and analytical views**.
@@ -106,7 +106,7 @@ The project produces decision-ready queries such as:
 - Share of revenue from repeat customers
 - Average order value by customer segment
 
-All queries operate on grain-safe views.
+All queries operate on grain safe views.
 
 ---
 
