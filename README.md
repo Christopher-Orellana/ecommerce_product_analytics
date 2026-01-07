@@ -129,8 +129,19 @@ ecom_product_analytics/
 3. Run schema scripts  
 4. Load CSVs using `\copy`  
 5. Create analytical views  
-6. Execute queries from `sql/queries/`  
 
+6. In the PostgreSQL SQL Shell (`psql`), change into the queries directory  
+   using the **absolute path to this repository on your machine**:
+   ```sql
+   \cd /absolute/path/to/ecom_product_analytics/sql/queries
+7. Run the SQL queries in my repo using `\i` after
+switching to the project directory in the previous step:
+
+```
+- \i revenue_concentration.sql
+- \i at_risk_high_value_customers.sql
+- \i avg_order_value_by_rfm_segment.sql
+```
 ---
 
 ## Status
