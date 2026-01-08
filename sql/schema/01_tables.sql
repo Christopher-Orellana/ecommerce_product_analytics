@@ -1,6 +1,6 @@
 -- Customers
 -- Grain: one row per customer_id
--- ----------------------------
+
 CREATE TABLE customers (
     customer_id         VARCHAR PRIMARY KEY,
     customer_unique_id  VARCHAR NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE customers (
 
 -- Orders
 -- Grain: one row per order_id
--- ----------------------------
+
 CREATE TABLE orders (
     order_id                     VARCHAR PRIMARY KEY,
     customer_id                  VARCHAR NOT NULL,
@@ -31,7 +31,7 @@ CREATE TABLE orders (
 
 -- Order Items
 -- Grain: one row per (order_id, order_item_id)
--- ----------------------------
+
 CREATE TABLE order_items (
     order_id        VARCHAR NOT NULL,
     order_item_id   INTEGER NOT NULL,
@@ -52,7 +52,7 @@ CREATE TABLE order_items (
 
 -- Order Payments
 -- Grain: one row per (order_id, payment_sequential)
--- ----------------------------
+
 CREATE TABLE order_payments (
     order_id            VARCHAR NOT NULL,
     payment_sequential  INTEGER NOT NULL,
