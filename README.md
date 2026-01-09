@@ -142,14 +142,9 @@ switching to the project directory in the previous step:
 - \i at_risk_high_value_customers.sql
 - \i avg_order_value_by_rfm_segment.sql
 ```
----
-
-## Status
-
-**In Progress — analytics layer validated on full dataset - dashboard in progress.**
 
 ---
 
 ## License
 
-MIT License © 2025
+MIT License © 2026
